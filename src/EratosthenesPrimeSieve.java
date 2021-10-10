@@ -35,7 +35,7 @@ public class EratosthenesPrimeSieve implements PrimeSieve {
                                 result = number1 + number2;
                                 if (result == i) {
                                     System.out.println(number1 + " + " + number2 + " = " + result);
-                                    
+
                                 }
                             }
                         }

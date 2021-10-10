@@ -20,7 +20,7 @@ public class Main {
         e.printPrimes();
         System.out.println("");
         e.eratosthenesPrimesSieve();
-
+        System.out.println();
 
     }
 }
