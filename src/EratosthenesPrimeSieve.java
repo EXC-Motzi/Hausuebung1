@@ -22,10 +22,10 @@ public class EratosthenesPrimeSieve implements PrimeSieve {
                             }
                         }
                     }
-                        for (int j = 0; j < i; j++) {
+                        for (int j = 2; j < i; j++) {
                             if (primes[j] == true) {
                                 number1 = j;
-                                for (int y = 0; y < i; y++) {
+                                for (int y = 2; y < i; y++) {
                                     if (primes[y] == true) {
                                         number2 = y;
                                         result = number1 + number2;
